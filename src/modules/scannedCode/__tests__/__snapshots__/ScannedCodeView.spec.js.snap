@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScannedCode => CopyButton renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CopyButton
+    data="https://insiderdev.com"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "Copy",
+      "onPress": [Function],
+      "radius": 5,
+    },
+    "ref": null,
+    "rendered": "Copy",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Copy",
+        "onPress": [Function],
+        "radius": 5,
+      },
+      "ref": null,
+      "rendered": "Copy",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ScannedCode => CustomInput renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CustomInput
+    copyToClipboard={[Function]}
+    disabledColor="gray"
+    editable={false}
+    floatingPlaceholder={true}
+    floatingPlaceholderColor="black"
+    placeholder="Title"
+    text70={true}
+    value="string"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <TextInput
+          copyToClipboard={[Function]}
+          disabledColor="gray"
+          editable={false}
+          enableErrors={true}
+          floatingPlaceholder={true}
+          floatingPlaceholderColor="#626262"
+          placeholder="Title"
+          placeholderTextColor="#858F96"
+          text70={true}
+          value="string"
+        />,
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "bottom": 25,
+              "height": 40,
+              "justifyContent": "center",
+              "padding": 10,
+              "position": "absolute",
+              "right": 0,
+              "width": 40,
+            }
+          }
+        >
+          <Image
+            assetGroup="icons"
+            assetName="copy"
+            resizeMode="contain"
+            style={
+              Object {
+                "height": 40,
+                "width": 25,
+              }
+            }
+          />
+        </TouchableOpacity>,
+      ],
+      "useNativeDriver": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "copyToClipboard": [Function],
+          "disabledColor": "gray",
+          "editable": false,
+          "enableErrors": true,
+          "floatingPlaceholder": true,
+          "floatingPlaceholderColor": "#626262",
+          "placeholder": "Title",
+          "placeholderTextColor": "#858F96",
+          "text70": true,
+          "value": "string",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 0.2,
+          "children": <Image
+            assetGroup="icons"
+            assetName="copy"
+            resizeMode="contain"
+            style={
+              Object {
+                "height": 40,
+                "width": 25,
+              }
+            }
+          />,
+          "onPress": [Function],
+          "style": Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "bottom": 25,
+            "height": 40,
+            "justifyContent": "center",
+            "padding": 10,
+            "position": "absolute",
+            "right": 0,
+            "width": 40,
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "assetGroup": "icons",
+            "assetName": "copy",
+            "resizeMode": "contain",
+            "style": Object {
+              "height": 40,
+              "width": 25,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TextInput
+            copyToClipboard={[Function]}
+            disabledColor="gray"
+            editable={false}
+            enableErrors={true}
+            floatingPlaceholder={true}
+            floatingPlaceholderColor="#626262"
+            placeholder="Title"
+            placeholderTextColor="#858F96"
+            text70={true}
+            value="string"
+          />,
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "bottom": 25,
+                "height": 40,
+                "justifyContent": "center",
+                "padding": 10,
+                "position": "absolute",
+                "right": 0,
+                "width": 40,
+              }
+            }
+          >
+            <Image
+              assetGroup="icons"
+              assetName="copy"
+              resizeMode="contain"
+              style={
+                Object {
+                  "height": 40,
+                  "width": 25,
+                }
+              }
+            />
+          </TouchableOpacity>,
+        ],
+        "useNativeDriver": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "copyToClipboard": [Function],
+            "disabledColor": "gray",
+            "editable": false,
+            "enableErrors": true,
+            "floatingPlaceholder": true,
+            "floatingPlaceholderColor": "#626262",
+            "placeholder": "Title",
+            "placeholderTextColor": "#858F96",
+            "text70": true,
+            "value": "string",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 0.2,
+            "children": <Image
+              assetGroup="icons"
+              assetName="copy"
+              resizeMode="contain"
+              style={
+                Object {
+                  "height": 40,
+                  "width": 25,
+                }
+              }
+            />,
+            "onPress": [Function],
+            "style": Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "bottom": 25,
+              "height": 40,
+              "justifyContent": "center",
+              "padding": 10,
+              "position": "absolute",
+              "right": 0,
+              "width": 40,
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "assetGroup": "icons",
+              "assetName": "copy",
+              "resizeMode": "contain",
+              "style": Object {
+                "height": 40,
+                "width": 25,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ScannedCode => OpenButton renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OpenButton
+    data="https://insiderdev.com"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "Open",
+      "onPress": [Function],
+      "radius": 5,
+    },
+    "ref": null,
+    "rendered": "Open",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Open",
+        "onPress": [Function],
+        "radius": 5,
+      },
+      "ref": null,
+      "rendered": "Open",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ScannedCode => ShareButton renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ShareButton
+    data="https://insiderdev.com"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "Share",
+      "onPress": [Function],
+      "radius": 5,
+    },
+    "ref": null,
+    "rendered": "Share",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Share",
+        "onPress": [Function],
+        "radius": 5,
+      },
+      "ref": null,
+      "rendered": "Share",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ScannedCode renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Connect(withState(withHandlers(withHandlers(lifecycle(ScannedCodeView)))))
+    navigation={
+      Object {
+        "state": Object {
+          "params": Object {
+            "data": "hello",
+          },
+        },
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "dispatch": [Function],
+      "isPro": true,
+      "navigation": Object {
+        "state": Object {
+          "params": Object {
+            "data": "hello",
+          },
+        },
+      },
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "storeSubscription": Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": [Function],
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "dispatch": [Function],
+        "isPro": true,
+        "navigation": Object {
+          "state": Object {
+            "params": Object {
+              "data": "hello",
+            },
+          },
+        },
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "storeSubscription": Subscription {
+          "listeners": Object {
+            "clear": [Function],
+            "get": [Function],
+            "notify": [Function],
+            "subscribe": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+          "unsubscribe": [Function],
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
