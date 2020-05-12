@@ -1,4 +1,4 @@
-# QR Code Reader and Generator
+# QR Code Reader and Generator using react-native
 
 [![Build Status](https://app.bitrise.io/app/f1d145ef19337c8a/status.svg?token=1ixKk28nzlq9R_E-Pb5uXw&branch=master)](https://app.bitrise.io/app/f1d145ef19337c8a)
 [![codecov](https://codecov.io/gh/insiderdev/qrcode/branch/master/graph/badge.svg)](https://codecov.io/gh/insiderdev/qrcode)
